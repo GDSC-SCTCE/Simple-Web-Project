@@ -1,10 +1,12 @@
 # Simple-Web-Project
 This project aims to simplify and guide the way beginners make their first contribution to open source . 
-If you are looking to make your first contribution, follow the steps below.
+If you are looking to make your first contribution. This repository is the right place to start.
 ## Prerequisites:
 * Install git in your machine.
 * Have basic command line experiance.
- 
+
+## Follow the given steps
+
 1. Fork this repository 
 
 2. Clone this repository using the link into your local machine.
