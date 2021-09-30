@@ -1,4 +1,6 @@
 # Simple-Web-Project
+![](https://img.shields.io/badge/Hactoberfest-%202021-brightgreen)
+
 This project aims to simplify and guide the way beginners make their first contribution to open source . 
 If you are looking to make your first contribution. This repository is the right place to start.
 ## Prerequisites:
