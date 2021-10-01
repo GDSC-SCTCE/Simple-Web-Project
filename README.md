@@ -1,5 +1,10 @@
 # Simple-Web-Project
 ![](https://img.shields.io/badge/Hactoberfest-%202021-brightgreen)
+ ![GitHub forks](https://img.shields.io/github/forks/GDSC-SCTCE/Simple-Web-Project?style=social)
+ ![GitHub last commit](https://img.shields.io/github/last-commit/GDSC-SCTCE/Simple-Web-Project?color=red&style=social)
+<!-- ![GitHub repo size](https://img.shields.io/github/repo-size/GDSC-SCTCE/Simple-Web-Project?style=normal) -->
+![GitHub language count](https://img.shields.io/github/languages/count/GDSC-SCTCE/Simple-Web-Project?style=normal)
+![GitHub top language](https://img.shields.io/github/languages/top/GDSC-SCTCE/Simple-Web-Project?style=normal)
 
 This project aims to simplify and guide the way beginners make their first contribution to open source . 
 If you are looking to make your first contribution. This repository is the right place to start.
