@@ -47,9 +47,12 @@ select {
 
 div[class*="form-group-"] {
     width: 85%;
-    margin: 0 50px;
+    margin: 10px 50px;
 }
 
+.form-group-1 label {
+    margin: 10px 0 5px;
+}
 
 .form-group-1 input {
     height: 30px;
