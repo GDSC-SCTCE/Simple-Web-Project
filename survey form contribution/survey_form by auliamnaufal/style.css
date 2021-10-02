@@ -66,6 +66,10 @@ div[class*="form-group-"] {
     margin: 0 50px;
 }
 
+.title { 
+    margin-bottom: 10px;
+}
+
 .input-checkbox{
   margin-right: 0.625rem;
   min-height: 2px;
@@ -102,8 +106,20 @@ div[class*="form-group-"] {
     border:none;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 700px) {
+    .form-group {
+        font-size: .9rem;
+    }
+}
 
+@media only screen and (max-width: 500px) {
+    .form-group {
+        font-size: .7rem;
+    }
+
+    .title {
+        margin-bottom: 6px;
+    }
 }
  
  
