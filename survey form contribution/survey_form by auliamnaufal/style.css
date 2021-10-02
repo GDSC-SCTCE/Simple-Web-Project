@@ -1,59 +1,49 @@
 .form-setup{
+    width: 70vw;
     display:flex;
     flex-direction: column;
     background-color:black;
     color:white;
     padding:10px;
+    margin: 0 auto;
     align-items: center;
-    margin:0 400px 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
+}
+
+h1 {
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
 }
 
 input:focus, textarea:focus, select:focus{
     outline: none;
 }
 
-.form-group1 input,select,textarea{
-    margin:0;
-    height:30px;
-    border: none;
-    border-color: transparent;
-
-    
- }
-
- 
-button  {
-    margin:auto;
-    width:400px;
-    margin-top: 10px;
-    margin-bottom:10px;
-    background-color:rgb(15, 197, 15);
-    color:white;
-    height: 30px;
-    border-radius:10px;
-    border:none;
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
 }
-h1{
-    font-size:30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align:center;
+
+.form-group1 {
+    width: 85%;
+    margin: 0 50px;
 }
- 
- 
+
 .form-group1 label {
     display:block;
 }
-.form-group1 input {
-    width:400px;
-    height:30px;
-    border-radius:10px;
-    margin-top: 10px;
-    margin-bottom:5px;
-}
- 
 
+.form-group1 input {
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
 
 .form-group2 select{
     text-decoration: none;
@@ -63,12 +53,15 @@ h1{
     margin-top: 10px;
     margin-bottom:5px;
 }
+
 .form-group2 label{
     display:block;
 }
+
 .form-group3 label{
     display:block;
 }
+
 .form-group3 select{
     text-decoration: none;
     width:405px;
@@ -104,6 +97,21 @@ h1{
     border:none;
     padding:5px;
     
+}
+
+.button-set {
+    width: 85%;
+    margin: 0 50px;
+}
+ 
+.button-set button  {
+    width: 100%;
+    padding: 0 50px 0;
+    background-color:rgb(15, 197, 15);
+    color:white;
+    height: 30px;
+    border-radius:10px;
+    border:none;
 }
 
 @media only screen and (max-width: 37.5em) {
