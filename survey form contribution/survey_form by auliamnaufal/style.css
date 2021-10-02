@@ -1,5 +1,6 @@
 .form-setup{
     width: 70vw;
+    max-width: 700px;
     display:flex;
     flex-direction: column;
     background-color:black;
@@ -21,6 +22,19 @@ input:focus, textarea:focus, select:focus{
     outline: none;
 }
 
+label {
+    display: block;
+}
+
+select {
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+
 .form-group {
     width: 100%;
     display: flex;
@@ -28,75 +42,46 @@ input:focus, textarea:focus, select:focus{
     align-items: center;
     flex-direction: column;
     text-align: left;
+    padding: 20px 0;
 }
 
-.form-group1 {
+div[class*="form-group-"] {
     width: 85%;
     margin: 0 50px;
 }
 
-.form-group1 label {
-    display:block;
-}
 
-.form-group1 input {
+.form-group-1 input {
     height: 30px;
     border-radius: 10px;
     width: 100%;
 }
 
-.form-group2 select{
-    text-decoration: none;
-    width:405px;
-    height:30px;
-    border-radius:10px;
-    margin-top: 10px;
-    margin-bottom:5px;
+
+.radio-button-group {
+    width: 85%;
+    margin: 0 50px;
 }
 
-.form-group2 label{
-    display:block;
-}
-
-.form-group3 label{
-    display:block;
-}
-
-.form-group3 select{
-    text-decoration: none;
-    width:405px;
-    height:30px;
-    border-radius:10px;
-    margin-top: 10px;
-    margin-bottom:5px;
-}
 .input-checkbox{
- 
   margin-right: 0.625rem;
   min-height: 2px;
   min-width: 2px;
 }
- 
-.form-group4 label{
-    display:block
-}
-.form-group4 input{
-     
-    
+
+.form-group-4 input{
     margin-top: 10px;
     margin-bottom:5px;
-    
 }
-.form-group5 textarea{
-     
-    width:400px;
-    height:150px;
+
+.form-group-5 textarea{
+    width: 100%;
+    height: 150px;
     margin-top: 10px;
-    margin-bottom:5px;
-    border-radius:10px;
-    border:none;
-    padding:5px;
-    
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
 }
 
 .button-set {
