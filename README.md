@@ -100,3 +100,4 @@ If you are looking to make your first contribution. This repository is the right
 + Something that's clearly an attempt to simply +1 your pull request count for October.
 
 + Last but not least, one pull request to fix a typo is fine, but 5 pull requests to remove a stray whitespace is not.
+
