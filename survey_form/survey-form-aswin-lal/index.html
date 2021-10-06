@@ -24,9 +24,18 @@
 
          <div class="form-group">
 <div class="form-group1">
-       <div> <label  for="name" id = "name-label">Name : </label><input placeholder="Enter your name" type="text" id="name" required></div>
-       <div> <label for="email" id="email-label" >Email: </label><input placeholder="Enter your email" type="email" id="email" required></div>
-       <div> <label for="number" id="number-label" >Age </label><input placeholder="Enter your age" type="number" id="number" min = "1" max = "100" step = "1" required></div>
+       <div class="input-field">
+        <label  for="name" id = "name-label">Name : </label>
+        <input placeholder="Enter your name" type="text" id="name" required>
+      </div>
+       <div class="input-field">
+         <label for="email" id="email-label" >Email: </label>
+         <input placeholder="Enter your email" type="email" id="email" required>
+        </div>
+       <div class="input-field">
+         <label for="number" id="number-label" >Age </label>
+         <input placeholder="Enter your age" type="number" id="number" min = "1" max = "100" step = "1" required>
+        </div>
        <!-- <div> <label for="date" >Date </label><input placeholder="Enter your Birth date" type="date" id="date" required></div> </div> </div> -->
        </div>
        <div class="form-group2">
@@ -42,9 +51,17 @@
       </div>
       <div id = "radio-button-group">
         <label>Would you recommend freeCodeCamp to a friend?</label>
-        <div> <input  type="radio" id="radio-button"  checked value = "definitely" name = "radio-group"><label for="radio-button" >Definitely</label></div>  
-        <div> <input  type="radio" id="radio-button"   name = "radio-group"><label for="radio-button" >Maybe</label></div>  
-        <div> <input  type="radio" id="radio-bu1tton"  value="not-sure" name = "radio-group"><label for="radio-button" >Not sure</label></div>  
+        <div class="input-radio">
+           <input  type="radio" id="radio-button"  checked value = "definitely" name = "radio-group">
+           <label for="radio-button" >Definitely</label></div>  
+        <div class="input-radio">`
+           <input  type="radio" id="radio-button"   name = "radio-group">
+           <label for="radio-button" >Maybe</label>
+          </div>  
+        <div class="input-radio">
+           <input  type="radio" id="radio-bu1tton"  value="not-sure" name = "radio-group">
+           <label for="radio-button" >Not sure</label>
+          </div>  
       </div>
       
        
