@@ -80,6 +80,7 @@ img {
 #tribute-info{
     background-image: url('https://images.unsplash.com/photo-1504610926078-a1611febcad3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaG5vbG9neXx8fHx8fDE2MzM1MDkxMTA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
     background-size: cover;
+    padding-bottom: 30px;
 }
 #section_heading{
     font-size:3em;
