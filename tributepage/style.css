@@ -184,3 +184,6 @@ img {
     font-size:13px;
     margin-bottom:0;
   }
+  .navbar-brand{
+      padding-left: 10px;
+  }
