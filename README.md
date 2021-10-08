@@ -11,6 +11,8 @@
 This project aims to simplify and guide the way beginners make their first contribution to open source . 
 If you are looking to make your first contribution. This repository is the right place to start.
 ## Prerequisites:
+* Register to [Hacktober fest](https://hacktoberfest.digitalocean.com/)
+ > Please remeber to create all the pull request from the same github account registered with hacktoberfest.
 * Install git in your machine.
 * Have basic command line experiance.
 
