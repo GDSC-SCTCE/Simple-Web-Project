@@ -79,6 +79,7 @@ img {
 }
 #tribute-info{
     background-image: url('https://images.unsplash.com/photo-1504610926078-a1611febcad3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaG5vbG9neXx8fHx8fDE2MzM1MDkxMTA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+    background-size: cover;
 }
 #section_heading{
     font-size:3em;
@@ -91,8 +92,11 @@ img {
     font-size: 20px;
     font-weight: bold;
     color:white;
+    /* padding-bottom: 10px; */
    
    background-image: url('https://images.unsplash.com/photo-1542393545-10f5cde2c810?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=750&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29tcHV0ZXJ8fHx8fHwxNjMzNTA5MzM3&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=540');
+   background-size: cover;
+   /* background-position: center; */
 }
 .footer-dark {
     padding:50px 0;
