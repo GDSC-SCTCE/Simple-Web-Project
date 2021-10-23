@@ -16,7 +16,7 @@ img {
   }
 
 #main{
-    margin-top:30px;
+    
     background-color: #EEEEEE;
     margin-bottom: 30px;
     margin-right:15px;
@@ -25,11 +25,14 @@ img {
 }
 #title{
     text-align:center;
-    font-size: 3em;
-    padding:30px 30px 10px 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5em;
+    /* padding:30px 30px 10px 30px; */
 }
 .sub-head{
     font-size:1em;
+    /* font-family: 'Amatic SC', cursive; */
+    color: grey;
     text-align:center;
     font-weight: normal;
     padding:5px 25px 15px 25px;
