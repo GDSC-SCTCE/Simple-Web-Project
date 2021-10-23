@@ -1,0 +1,126 @@
+.form-setup{
+    width: 70vw;
+    max-width: 700px;
+    display:flex;
+    flex-direction: column;
+    background-color:black;
+    color:white;
+    padding:10px;
+    margin: 0 auto;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+label {
+    display: block;
+}
+
+select {
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    border-radius:10px;
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 0;
+}
+
+div[class*="form-group-"] {
+    width: 85%;
+    margin: 10px 50px;
+}
+
+.form-group-1 label {
+    margin: 10px 0 5px;
+}
+
+.form-group-1 input {
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+.radio-button-group {
+    width: 85%;
+    margin: 0 50px;
+}
+
+.title { 
+    margin-bottom: 10px;
+}
+
+.input-checkbox{
+  margin-right: 0.625rem;
+  min-height: 2px;
+  min-width: 2px;
+}
+
+.form-group-4 input{
+    margin-top: 10px;
+    margin-bottom:5px;
+}
+
+.form-group-5 textarea{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.button-set {
+    width: 85%;
+    margin: 0 50px;
+}
+ 
+.button-set button  {
+    width: 100%;
+    padding: 0 50px 0;
+    background-color:rgb(15, 197, 15);
+    color:white;
+    height: 30px;
+    border-radius:10px;
+    border:none;
+}
+
+@media only screen and (max-width: 700px) {
+    .form-group {
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .form-group {
+        font-size: .7rem;
+    }
+
+    .title {
+        margin-bottom: 6px;
+    }
+}
+ 
+ 
+
