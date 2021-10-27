@@ -103,3 +103,10 @@ If you are looking to make your first contribution. This repository is the right
 
 + Last but not least, one pull request to fix a typo is fine, but 5 pull requests to remove a stray whitespace is not.
 
+
+## Contributors
+
+This project is powered by these awesome contributors:
+<a href="https://github.com/GDSC-SCTCE/Simple-Web-Project/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GDSC-SCTCE/Simple-Web-Project" />
+</a>
