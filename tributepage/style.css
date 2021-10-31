@@ -198,4 +198,95 @@ img {
   .navbar-brand{
       padding-left: 10px;
   }
+
+
+#linkgrid{
+ display: block;
+ text-align: center;
+ margin-bottom: 4rem;
+}
+
+#oneb{
+  background-image: url('https://source.unsplash.com/Lyfy7j9fy0U/500x350/');
+  background-size: contain;
+  background-position: center;
+
+}
+#twob{
+  background-image: url('https://source.unsplash.com/wAygsCk20h8/500x350/');
+  background-size: contain;
+  background-position: center;
+
+}
+#thrb{
+  background-image: url('https://source.unsplash.com/PHH_0uw9-Qw/500x350/');
+  background-size: contain;
+  background-position: center;
+
+}
+#forb{
+  background-image: url('https://source.unsplash.com/XF33zLb6Fkw/500x350/');
+  background-size: contain;
+  background-position: center;
+  /* filter: grayscale(40%); */
+
+}
+#fveb{
+  background-image: url('https://source.unsplash.com/h0h3gpAK4D0/500x350/');
+  background-size: contain;
+  background-position: center;
+
+}
+#sixb{
+  background-image: url('https://source.unsplash.com/ylXEoOGH8VQ/500x350/');
+  /* filter: grayscale(40%) ; */
+  background-size: contain;
+  background-position: center;
+
+}
+.box{
+  background-color: grey;
+  text-align: center;
+  border-radius: 32px;
+ 
+  /* background-repeat: no-repeat; */
+  margin: 10px; 
+  width: 100%;
+  height: 180px;
+}
+
+.text-center{
+  font-weight: 700;
+  font-size: 2em;
+  text-shadow: 0 0 20px #000;
+  margin: 0 0 10px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.42857143;
+
+  color: #fff;
+  transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  
+}
+.intro{
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.box:hover{
+  filter: grayscale(100%);
+}
+
+hr{
+  margin-top: 2rem ;
+  
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+ 
+  text-decoration: none;
+}
   /* 'https://images.unsplash.com/photo-1542393545-10f5cde2c810?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=750&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29tcHV0ZXJ8fHx8fHwxNjMzNTA5MzM3&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=540' */
