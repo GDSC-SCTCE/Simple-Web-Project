@@ -16,7 +16,7 @@ img {
   }
 
 #main{
-    margin-top:30px;
+    
     background-color: #EEEEEE;
     margin-bottom: 30px;
     margin-right:15px;
@@ -25,11 +25,14 @@ img {
 }
 #title{
     text-align:center;
-    font-size: 3em;
-    padding:30px 30px 10px 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5em;
+    /* padding:30px 30px 10px 30px; */
 }
 .sub-head{
     font-size:1em;
+    /* font-family: 'Amatic SC', cursive; */
+    color: grey;
     text-align:center;
     font-weight: normal;
     padding:5px 25px 15px 25px;
@@ -84,7 +87,10 @@ img {
 }
 #section_heading{
     font-size:3em;
-    color:red;
+    font-weight:bold;
+    color:white;
+    margin: 2rem;
+    width:500px;
 }
 #section{
     border: 2px solid white;
@@ -95,7 +101,7 @@ img {
     color:white;
     /* padding-bottom: 10px; */
    
-   background-image: url('https://images.unsplash.com/photo-1542393545-10f5cde2c810?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=750&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29tcHV0ZXJ8fHx8fHwxNjMzNTA5MzM3&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=540');
+   background-image: url(/Image/100496736-steve-jobs-march-2011-getty.jpg);
    background-size: cover;
    /* background-position: center; */
 }
@@ -283,3 +289,4 @@ a:hover{
  
   text-decoration: none;
 }
+  /* 'https://images.unsplash.com/photo-1542393545-10f5cde2c810?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=750&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29tcHV0ZXJ8fHx8fHwxNjMzNTA5MzM3&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=540' */

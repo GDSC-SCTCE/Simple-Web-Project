@@ -20,15 +20,15 @@
 
          <div class="form-group">
 <div class="form-group1">
-       <div> <label  for="name" id = "name-label">Name : </label><input placeholder="Enter your name" type="text" id="name" required></div>
-       <div> <label for="email" id="email-label" >Email: </label><input placeholder="Enter your email" type="email" id="email" required></div>
-       <div> <label for="number" id="number-label" >Age </label><input placeholder="Enter your age" type="number" id="number" min = "1" max = "100" step = "1" required></div>
+       <div> <label  for="name" id = "name-label"><span>Name :</span></label><input placeholder="Enter your name" type="text" id="name" required></div>
+       <div> <label for="email" id="email-label" ><span>Email: </span></label><input placeholder="Enter your email" type="email" id="email" required></div>
+       <div> <label for="number" id="number-label" ><span>Age:</span></label><input placeholder="Enter your age" type="number" id="number" min = "1" max = "100" step = "1" required></div>
        <!-- <div> <label for="date" >Date </label><input placeholder="Enter your Birth date" type="date" id="date" required></div> </div> </div> -->
        </div>
        <div class="form-group2">
-        <label for="cars">Which option best describes your current role?</label>
+        <label for="cars"><span>Which option best describes your current role?</span></label>
         <select id="dropdown" name="role" class="form-control" required>
-          <option disabled selected value>Select current role</option>
+          <option disabled selected value><span>Select current role</span></option>
           <option value="student">Student</option>
           <option value="job">Full Time Job</option>
           <option value="learner">Full Time Learner</option>
@@ -37,7 +37,7 @@
         </select>
       </div>
       <div id = "radio-button-group">
-        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <label><span>Would you recommend freeCodeCamp to a friend?</span></label>
         <div> <input  type="radio" id="radio-button"  checked value = "definitely" name = "radio-group"><label for="radio-button" >Definitely</label></div>  
         <div> <input  type="radio" id="radio-button"   name = "radio-group"><label for="radio-button" >Maybe</label></div>  
         <div> <input  type="radio" id="radio-bu1tton"  value="not-sure" name = "radio-group"><label for="radio-button" >Not sure</label></div>  
@@ -46,7 +46,7 @@
        
        <div class="form-group3">
         <label>
-          What is your favorite feature of freeCodeCamp?
+          <span>Which is your favorite feature of freeCodeCamp?</span>
         </label>
         <select id="most-like" name="mostLike" class="form-control" required>
           <option disabled selected value>Select an option</option>
@@ -58,8 +58,8 @@
       </div>
 
       <div class="form-group4">
-        <label  >
-          What would you like to see improved?
+        <label>
+         <span> What would you like to see improved?</span>
           <span class="clue">(Check all that apply)</span>
         </label>
   
@@ -153,7 +153,7 @@
         >
       </div>
       <div class="form-group5">
-        <p>Any comments or suggestions?</p>
+        <p><span>Any comments or suggestions?</span></p>
         <textarea
           id="comments"
           class="input-textarea"
